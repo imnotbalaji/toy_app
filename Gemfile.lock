@@ -150,6 +150,10 @@ GEM
     nokogiri (1.18.8)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.18.8-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-linux-gnu)
+      racc (~> 1.4)
     parallel (1.27.0)
     parser (3.3.8.0)
       ast (~> 2.4.1)
@@ -260,9 +264,9 @@ GEM
       concurrent-ruby (~> 1.0)
       logger
       rack (>= 2.2.4, < 4)
-    sprockets-rails (3.4.2)
-      actionpack (>= 5.2)
-      activesupport (>= 5.2)
+    sprockets-rails (3.5.2)
+      actionpack (>= 6.1)
+      activesupport (>= 6.1)
       sprockets (>= 3.0.0)
     sqlite3 (2.6.0)
       mini_portile2 (~> 2.8.0)
@@ -314,7 +318,7 @@ DEPENDENCIES
   rubocop-rails-omakase
   sassc-rails (= 2.1.2)
   selenium-webdriver
-  sprockets-rails (= 3.4.2)
+  sprockets-rails (= 3.5.2)
   sqlite3 (>= 1.4.2)
   stimulus-rails (= 1.0.4)
   turbo-rails (= 1.1.1)

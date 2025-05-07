@@ -6,7 +6,7 @@ gem "rails", "~> 7.2.2", ">= 7.2.2.1"
 # sassc-rails is a Rails plugin that allows you to use the SassC compiler for your Sass files.
 gem 'sassc-rails', "2.1.2"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails", '3.4.2'
+gem "sprockets-rails", '3.5.2'
 # Use sqlite3 as the database for Active Record
 # gem "sqlite3", ">= 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
