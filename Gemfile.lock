@@ -150,6 +150,10 @@ GEM
     nokogiri (1.18.8)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
+    nokogiri (1.18.8-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-linux-gnu)
+      racc (~> 1.4)
     parallel (1.27.0)
     parser (3.3.8.0)
       ast (~> 2.4.1)
@@ -282,7 +286,7 @@ GEM
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
     useragent (0.16.11)
-    web-console (4.2.0)
+    web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
@@ -319,7 +323,7 @@ DEPENDENCIES
   stimulus-rails (= 1.0.4)
   turbo-rails (= 1.1.1)
   tzinfo-data
-  web-console (= 4.2.0)
+  web-console (= 4.2.1)
 
 RUBY VERSION
    ruby 3.1.2p20
